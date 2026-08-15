@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sat Aug 15 01:06:28 BRT 2026
+comment0.target=Computador
+comment1.params=marcaModelo processadorModelo ram
+comment1.target=Computador(java.lang.String, java.lang.String, int)
+comment2.target=java.lang.String getMarca()
+comment3.params=novaMarca
+comment3.target=void setMarca(java.lang.String)
+comment4.target=java.lang.String getProcessador()
+comment5.params=novoProcessador
+comment5.target=void setProcessador(java.lang.String)
+comment6.target=int getMemoriaRam()
+comment7.params=novaRam
+comment7.target=void setMemoriaRam(int)
+comment8.target=void ligar()
+comment9.target=void exibeDados()
+numComments=10
