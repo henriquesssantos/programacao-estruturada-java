@@ -1,0 +1,16 @@
+#BlueJ class context
+#Mon Aug 17 10:30:55 BRT 2026
+comment0.target=cofrinho
+comment1.params=umaPessoa
+comment1.target=cofrinho(Pessoa)
+comment2.params=umNome umaIdade
+comment2.target=cofrinho(java.lang.String, int)
+comment3.params=novoDono
+comment3.target=void setDono(Pessoa)
+comment4.target=Pessoa getDono()
+comment5.target=void deposita50c()
+comment6.target=void deposita25c()
+comment7.target=void deposita10c()
+comment8.target=double calculaTotal()
+comment9.target=java.lang.String informaTotal()
+numComments=10

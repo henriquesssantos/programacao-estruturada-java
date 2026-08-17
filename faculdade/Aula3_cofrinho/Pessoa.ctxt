@@ -1,6 +1,13 @@
 #BlueJ class context
-#Mon Aug 17 09:26:28 BRT 2026
+#Mon Aug 17 10:01:34 BRT 2026
 comment0.target=Pessoa
 comment1.params=nome idade
 comment1.target=Pessoa(java.lang.String, int)
-numComments=2
+comment2.target=java.lang.String getNome()
+comment3.params=nome
+comment3.target=void setNome(java.lang.String)
+comment4.target=int getIdade()
+comment5.params=idade
+comment5.target=void setIdade(int)
+comment6.target=void exibeDados()
+numComments=7
