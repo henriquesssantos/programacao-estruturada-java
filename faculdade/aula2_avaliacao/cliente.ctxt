@@ -1,0 +1,13 @@
+#BlueJ class context
+#Mon Aug 17 08:12:49 BRT 2026
+comment0.target=cliente
+comment1.params=nome cpf
+comment1.target=cliente(java.lang.String, java.lang.String)
+comment2.target=java.lang.String getNome()
+comment3.target=java.lang.String getCpf()
+comment4.params=nome
+comment4.target=void setNome(java.lang.String)
+comment5.params=cpf
+comment5.target=void setCpf(java.lang.String)
+comment6.target=void exibirDados()
+numComments=7
