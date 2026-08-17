@@ -1,0 +1,16 @@
+#BlueJ class context
+#Mon Aug 17 00:21:11 BRT 2026
+comment0.target=imovel
+comment1.params=nome localizacao valor
+comment1.target=imovel(java.lang.String, java.lang.String, int)
+comment2.target=java.lang.String getNome()
+comment3.target=java.lang.String getLocalizacao()
+comment4.target=int valor()
+comment5.params=nome
+comment5.target=void setnome(java.lang.String)
+comment6.params=localizacao
+comment6.target=void setLocalizacao(java.lang.String)
+comment7.params=valor
+comment7.target=void setValor(int)
+comment8.target=void exibeDados()
+numComments=9
