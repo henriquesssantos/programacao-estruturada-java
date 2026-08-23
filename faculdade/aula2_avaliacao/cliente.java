@@ -5,7 +5,7 @@ public class cliente{
     // construtor
     public cliente(String nome, String cpf){
         this.nome = nome;
-        this.cpf = nome;
+        this.cpf = cpf;
         
     }
     
@@ -14,7 +14,7 @@ public class cliente{
         return nome;
     }
     public String getCpf(){
-        return nome;
+        return cpf;
     }
     public void setNome(String nome){
         this.nome = nome;
