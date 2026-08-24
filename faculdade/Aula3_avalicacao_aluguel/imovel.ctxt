@@ -1,0 +1,7 @@
+#BlueJ class context
+#Mon Aug 24 00:21:41 BRT 2026
+comment0.target=imovel
+comment1.params=codigo descricao PrecoAlugel ContratoMinimo
+comment1.target=imovel(int, java.lang.String, double, int)
+comment2.target=void exibeDados()
+numComments=3

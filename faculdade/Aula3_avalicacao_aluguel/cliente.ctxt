@@ -1,0 +1,8 @@
+#BlueJ class context
+#Mon Aug 24 00:10:35 BRT 2026
+comment0.target=cliente
+comment1.params=codigo nome telefone
+comment1.target=cliente(int, java.lang.String, java.lang.String)
+comment2.target=java.lang.String getNome()
+comment3.target=java.lang.String getTelenofe()
+numComments=4
