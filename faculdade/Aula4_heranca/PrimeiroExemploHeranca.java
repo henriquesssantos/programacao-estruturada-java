@@ -12,6 +12,9 @@ public class PrimeiroExemploHeranca
                                       Teclado.leString("Informe o login do Professor: "),
                                       Teclado.leString("Informe a senha do Professor: ")
                                       );
+                                      
+        professor.setAreaDeAtuacao("informatica");
+        
         aluno aluno = new aluno(Teclado.leInt("Informe a matricula do aluno: "),
                                       Teclado.leString("Informe o nome do aluno: "),
                                       Teclado.leString("Informe o login do aluno: "),

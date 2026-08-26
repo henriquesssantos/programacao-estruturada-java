@@ -17,7 +17,7 @@ public class professor extends usuario{
         super.exibeDados();
         
         if(areaDeAtuacao!=null && !areaDeAtuacao.isEmpty()){
-            
+            System.out.println("area de atuacao: "+areaDeAtuacao);
         }
     }
 }
