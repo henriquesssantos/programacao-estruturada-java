@@ -1,44 +1,29 @@
-ESTRUTURA DO CODIGO:
-Cliente.java
+## 📂 Estrutura do Código
 
-Modela o locatario do imovel.
+* **`Cliente.java`**
+  * Modela o locatário do imóvel.
+  * Guarda atributos de identificação (`codigo`, `nome` e `telefone`).
 
-Guarda atributos de identificacao (codigo, nome e telefone).
+* **`Imovel.java`**
+  * Modela a residência disponível para locação.
+  * Guarda `codigo`, `descricao`, `precoAluguel` e `contratoMinimo`.
+  * Possui o método `exibeDados()` para impressão detalhada do imóvel.
 
-Imovel.java
+* **`Aluguel.java`**
+  * Representa o contrato de locação consolidado.
+  * **Atributos:** código do contrato, datas (`dataInicio` e `dataFinal`), associação com o objeto `Imovel` e com o objeto `Cliente`.
+  * Possui o método `exibeDados()` que imprime o contrato e encadeia a exibição dos dados do imóvel associado.
 
-Modela a residencia disponivel para locacao.
+* **`Main.java`**
+  * Classe executável (ponto de entrada da aplicação).
+  * Gerencia o fluxo de perguntas e respostas com o usuário usando `Scanner`.
+  * Aplica conversões de entrada (`Integer.parseInt` e `Double.parseDouble`) para tratamento correto do buffer do teclado.
+  * Instancia as três entidades e exibe o resultado final no console.
 
-Guarda codigo, descricao, preco do aluguel e tempo minimo de contrato.
+---
 
-Possui o metodo exibeDados() para impressao detalhada do imovel.
-
-Aluguel.java
-
-Representa o contrato de locacao consolidado.
-
-Atributos: codigo do contrato, datas (inicio e termino), associacao com
-o objeto Imovel e com o objeto Cliente.
-
-Possui o metodo exibeDados() que imprime o contrato e encadeia a
-exibicao dos dados do imovel associado.
-
-Main.java
-
-Classe executavel (ponto de entrada da aplicacao).
-
-Gerencia o fluxo de perguntas e respostas com o usuario usando Scanner.
-
-Aplica conversoes de entrada (Integer.parseInt e Double.parseDouble)
-para tratamento correto do buffer do teclado.
-
-Instancia as tres entidades e exibe o resultado final no console.
-
-CONCEITOS DE POO APLICADOS:
-Encapsulamento (atributos privados e acessores).
-
-Construtores com tratamento do operador 'this'.
-
-Associacao/Composicao entre classes (Aluguel contem Imovel e Cliente).
-
-Manipulacao do buffer de entrada (java.util.Scanner).
+## 🛠️ Conceitos de POO Aplicados
+* Encapsulamento (atributos privados e acessores).
+* Construtores com tratamento do operador `this`.
+* Associação/Composição entre classes (`Aluguel` contém `Imovel` e `Cliente`).
+* Manipulação do buffer de entrada (`java.util.Scanner`).
