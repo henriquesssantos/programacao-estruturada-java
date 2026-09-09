@@ -1,0 +1,10 @@
+#BlueJ class context
+#Mon Aug 24 10:20:44 BRT 2026
+comment0.target=Professor
+comment1.params=mat nom log sen
+comment1.target=Professor(int, java.lang.String, java.lang.String, java.lang.String)
+comment2.target=java.lang.String getAreaAtuacao()
+comment3.params=are
+comment3.target=void setAreaAtuacao(java.lang.String)
+comment4.target=void exibeDados()
+numComments=5
