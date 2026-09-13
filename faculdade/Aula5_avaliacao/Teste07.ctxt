@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sun Sep 13 13:07:33 BRT 2026
+comment0.target=Teste07
+comment1.params=n
+comment1.target=void verificaNumero(int)
+comment2.params=args
+comment2.target=void main(java.lang.String[])
+numComments=3

@@ -1,0 +1,12 @@
+#BlueJ class context
+#Sun Sep 13 12:00:05 BRT 2026
+comment0.target=Teste01
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment2.target=void itemA()
+comment3.target=void itemB()
+comment4.target=void itemC()
+comment5.target=void itemD()
+comment6.target=void itemE()
+comment7.target=void itemF()
+numComments=8
